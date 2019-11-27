@@ -12,3 +12,6 @@ Tana 1983(1.2).exe
 
 Tana 1983(JJ).exe
 --Initial Upload by Jojo on 11/26 (og w/malicious code)
+
+Tana 1983(1.3).exe
+--jedi1 now consists of entirely NOP commands (to use for our own purposes), called at 00401613
