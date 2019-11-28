@@ -15,3 +15,6 @@ Tana 1983(JJ).exe
 
 Tana 1983(1.3).exe
 --jedi1 now consists of entirely NOP commands (to use for our own purposes), called at 00401613
+
+Tana 1983(1.3.2).exe
+--Now speeds up on increasing score--moved commands from adressi 00401606 to 00401617, allowing room for SUB ECX,dword ptr[rbp+ -0x8], decreasing sleep cycle (default 100 in this version) by current score. 2 free bytes right after call
