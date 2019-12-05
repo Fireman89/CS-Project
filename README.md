@@ -23,4 +23,4 @@ Tana 1983(1.4.6).exe
 --Rewrote direction change check (where it reads arrow input, now 00401610-61d) to have snake always have '0' as head, allow room for check slowing down speed (more sleep) for vertical directions (from 004016a1-b2)
 
 Tana 1983(1.4.7).exe
---'0' is now the default head of the snake
+--'0' is now the default head of the snake (changed 3e at 00401eed to 30)
